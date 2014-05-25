@@ -1,0 +1,33 @@
+{
+  "name": "git-get-file",
+  "version": "0.1.0",
+  "description": "Return a stream with the contents of file at the revision ref.",
+  "main": "index.js",
+  "dependencies": {
+    "git-spawned-stream": "~0.1.0"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-get-file"
+  },
+  "keywords": [
+    "git",
+    "file",
+    "stream",
+    "git-file"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-get-file/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-get-file"
+}
